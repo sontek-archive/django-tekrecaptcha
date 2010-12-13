@@ -1,7 +1,7 @@
-try: 
+try:
     from setuptools import setup
-except ImportError: 
-    from distutils.core import setup 
+except ImportError:
+    from distutils.core import setup
 
 setup(
     name='django-tekrecaptcha',
@@ -14,7 +14,7 @@ setup(
     download_url='http://github.com/sontek/django-tekrecaptcha',
     license='BSD',
     packages=['tekrecaptcha'],
-    classifiers = [
+    classifiers=[
             'Framework :: Django',
             'License :: OSI Approved :: BSD License',
             'Operating System :: OS Independent',
